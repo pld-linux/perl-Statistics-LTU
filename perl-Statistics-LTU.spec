@@ -3,7 +3,7 @@ Summary:	Statistics-LTU perl module
 Summary(pl):	Modu³ perla Statistics-LTU
 Name:		perl-Statistics-LTU
 Version:	2.8
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
