@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Statistics
-%define	pnam	LTU
+%define		pdir	Statistics
+%define		pnam	LTU
 Summary:	Statistics::LTU perl module
 Summary(pl):	Modu³ perla Statistics::LTU
 Name:		perl-Statistics-LTU
