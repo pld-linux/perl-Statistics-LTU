@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Statistics
 %define	pnam	LTU
-Summary:	Statistics-LTU perl module
-Summary(pl):	Modu³ perla Statistics-LTU
+Summary:	Statistics::LTU perl module
+Summary(pl):	Modu³ perla Statistics::LTU
 Name:		perl-Statistics-LTU
 Version:	2.8
 Release:	8
@@ -16,11 +16,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Statistics-LTU defines methods for creating, destroying, training and
+Statistics::LTU defines methods for creating, destroying, training and
 testing Linear Threshold Units.
 
 %description -l pl
-Statistics-LTU definiuje metody tworzenia, niszczenia i testowania LTU
+Statistics::LTU definiuje metody tworzenia, niszczenia i testowania LTU
 (Linear Treshold Units).
 
 %prep
