@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Statistics
 %define	pnam	LTU
-%include	/usr/lib/rpm/macros.perl
 Summary:	Statistics-LTU perl module
 Summary(pl):	Modu³ perla Statistics-LTU
 Name:		perl-Statistics-LTU
 Version:	2.8
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -25,7 +24,7 @@ Statistics-LTU definiuje metody tworzenia, niszczenia i testowania LTU
 (Linear Treshold Units).
 
 %prep
-%setup -q -n Statistics-LTU-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 %patch -p0
 
 %build
