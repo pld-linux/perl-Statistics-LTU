@@ -1,0 +1,8 @@
+--- weather.pl~	Thu Feb 27 20:18:50 1997
++++ weather.pl	Mon Oct 18 20:09:41 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl
++#!/usr/bin/perl
+ # -*-Perl-*-
+ # weather.perl -- Tom Fawcett  Tue Jan  2 1996
+ #
