@@ -29,7 +29,7 @@ Statistics-LTU definiuje metody tworzenia, niszczenia i testowania LTU
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
