@@ -5,7 +5,7 @@ Summary:	Statistics::LTU perl module
 Summary(pl):	Modu³ perla Statistics::LTU
 Name:		perl-Statistics-LTU
 Version:	2.8
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -36,14 +36,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf README.LTU ltu.doc
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README.LTU ltu.doc
 %{perl_sitelib}/Statistics/LTU.pm
 %{perl_sitelib}/Statistics/weather.pl
 %{_mandir}/man3/*
