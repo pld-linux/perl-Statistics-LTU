@@ -2,7 +2,7 @@
 %define		pdir	Statistics
 %define		pnam	LTU
 Summary:	Statistics::LTU perl module
-Summary(pl):	Modu≥ perla Statistics::LTU
+Summary(pl.UTF-8):   Modu≈Ç perla Statistics::LTU
 Name:		perl-Statistics-LTU
 Version:	2.8
 Release:	11
@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Statistics::LTU defines methods for creating, destroying, training and
 testing Linear Threshold Units.
 
-%description -l pl
+%description -l pl.UTF-8
 Statistics::LTU definiuje metody tworzenia, niszczenia i testowania LTU
 (Linear Treshold Units).
 
