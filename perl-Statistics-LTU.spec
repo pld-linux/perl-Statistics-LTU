@@ -2,7 +2,7 @@
 %define		pdir	Statistics
 %define		pnam	LTU
 Summary:	Statistics::LTU perl module
-Summary(pl.UTF-8):   Moduł perla Statistics::LTU
+Summary(pl.UTF-8):	Moduł perla Statistics::LTU
 Name:		perl-Statistics-LTU
 Version:	2.8
 Release:	11
